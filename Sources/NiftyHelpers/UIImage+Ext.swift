@@ -4,7 +4,7 @@
 //
 //  Created by Iiro Alhonen on 15.04.21.
 //
-
+#if !os(macOS)
 import UIKit
 
 /**
@@ -116,3 +116,4 @@ extension UIImage {
     }
 
 }
+#endif
